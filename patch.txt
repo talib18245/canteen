@@ -1,0 +1,28 @@
+Common subdirectories: max/arch and /usr/src/linux-3.16.71/arch
+Common subdirectories: max/block and /usr/src/linux-3.16.71/block
+Common subdirectories: max/crypto and /usr/src/linux-3.16.71/crypto
+Common subdirectories: max/Documentation and /usr/src/linux-3.16.71/Documentation
+Common subdirectories: max/drivers and /usr/src/linux-3.16.71/drivers
+Common subdirectories: max/firmware and /usr/src/linux-3.16.71/firmware
+Common subdirectories: max/fs and /usr/src/linux-3.16.71/fs
+Common subdirectories: max/include and /usr/src/linux-3.16.71/include
+Only in /usr/src/linux-3.16.71: info
+Common subdirectories: max/init and /usr/src/linux-3.16.71/init
+Common subdirectories: max/ipc and /usr/src/linux-3.16.71/ipc
+Common subdirectories: max/kernel and /usr/src/linux-3.16.71/kernel
+Common subdirectories: max/lib and /usr/src/linux-3.16.71/lib
+diff max/Makefile /usr/src/linux-3.16.71/Makefile
+855c855
+< core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/
+---
+> core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/ info/
+Only in /usr/src/linux-3.16.71: Makefile.save
+Common subdirectories: max/mm and /usr/src/linux-3.16.71/mm
+Common subdirectories: max/net and /usr/src/linux-3.16.71/net
+Common subdirectories: max/samples and /usr/src/linux-3.16.71/samples
+Common subdirectories: max/scripts and /usr/src/linux-3.16.71/scripts
+Common subdirectories: max/security and /usr/src/linux-3.16.71/security
+Common subdirectories: max/sound and /usr/src/linux-3.16.71/sound
+Common subdirectories: max/tools and /usr/src/linux-3.16.71/tools
+Common subdirectories: max/usr and /usr/src/linux-3.16.71/usr
+Common subdirectories: max/virt and /usr/src/linux-3.16.71/virt
